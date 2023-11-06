@@ -86,7 +86,13 @@ router.post("/:id/comments", (req, res) => {
   const videoListsJSON = fs.readFileSync("./data/videos.json");
   const videoList = JSON.parse(videoListsJSON);
   const { id } = req.params;
-  const newComment = req.body;
+  const newComment ={
+    id: uuidv4(),
+    name: req.body.name,
+    comment: req.body.comment,
+    likes:0,
+    timestamp: Date.now(),
+  }
   const selectedVideo = videoList.find(video => video.id === id);
   if (selectedVideo) {
     if (!Array.isArray(selectedVideo.comments)) {
@@ -114,7 +120,7 @@ router.put("/:id/comments/:commentId", (req, res)=>{
       if (commentToUpdate) {
         commentToUpdate.likes += 1;
         fs.writeFileSync("./data/videos.json", JSON.stringify(videoList, null, 2));
-        res.send("Comment likes updated successfully");
+        res.send(selectedVideo.comments);
       } else {
         res.status(404).send("Comment not found");
       }
