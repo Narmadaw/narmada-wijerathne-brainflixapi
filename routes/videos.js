@@ -57,7 +57,7 @@ router.post("/", upload.single('image'), (req, res) => {
     const newVideo = {
       id: uuidv4(),
       title: req.body.title,
-      channel: "sample title",
+      channel: "The Music Channel",
       image: req.file.filename, 
       description: req.body.description,
       views: 0,
