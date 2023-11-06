@@ -311,6 +311,19 @@
     "duration": "4:20",
     "video": "https://project-2-api.herokuapp.com/stream",
     "timestamp": 1699238451302,
-    "comments": []
+    "comments": [
+      {
+        "name": "Narmada Wijerathne",
+        "comment": "ghfthfth"
+      },
+      {
+        "name": "Narmada Wijerathne",
+        "comment": "ghmkgkhuk"
+      },
+      {
+        "name": "Narmada Wijerathne",
+        "comment": "fghnghgh"
+      }
+    ]
   }
 ]
