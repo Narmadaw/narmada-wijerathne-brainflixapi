@@ -63,7 +63,7 @@ router.post("/", upload.single('image'), (req, res) => {
       views: 0,
       likes: 0,
       duration: "4:20",
-      video: "https://project-2-api.herokuapp.com/stream",
+      video: "Sample-Video.mp4",
       timestamp: Date.now(),
       comments: []
     };
