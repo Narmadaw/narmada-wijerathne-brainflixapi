@@ -26,11 +26,11 @@
         "timestamp": 1626359541000
       },
       {
-        "id": "1e6895c2-5f6b-43d3-a179-341a05ee7751",
-        "name": "Narmada Wijerathne",
-        "comment": "fdgfhfghfgh",
-        "likes": 1,
-        "timestamp": 1699236101112
+        "id": "66b7d3c7-4023-47f1-a02c-520c9ca187a6",
+        "name": "Theodore Duncan",
+        "comment": "How can someone be so good!!! You can tell he lives for this and loves to do it every day. Every time I see him I feel instantly happy! He’s definitely my favorite ever!",
+        "likes": 0,
+        "timestamp": 1626011132000
       }
     ]
   },
@@ -322,16 +322,16 @@
     ]
   },
   {
-    "id": "ab5cb17a-2b4b-4f5b-ac36-8801ed4d44a9",
-    "title": "Best Band of the Year",
-    "channel": "Default title",
-    "image": "band.jpg",
-    "description": "Awesome Band",
+    "id": "e7792855-860e-409b-9c21-3545ff49c410",
+    "title": "The Bees Knees",
+    "channel": "The Music Channel",
+    "image": "Photo-gallery-2.jpg",
+    "description": "The Bees Knees is a pop rock band originating from San Francisco, California. The band consists of lead vocalist Bryan Teddy, guitarist Mack Tolkens, guitarist Andrew Green, bassist Kent Zulkee and drummer Freddie Fischer. The band achieved its first commercial success as an unsigned act, drawing attention from manager Cam Adams. Having worked with other popular acts (The Elephant In The Room, One Trick Pony, The Cat’s Meow), Adams was confident the band could succeed even further, pushing them to sign with Magenta Records.",
     "views": 0,
     "likes": 0,
     "duration": "4:20",
-    "video": "Sample-Video.mp4",
-    "timestamp": 1699236697957,
+    "video": "https://project-2-api.herokuapp.com/stream",
+    "timestamp": 1699238451302,
     "comments": []
   }
 ]
