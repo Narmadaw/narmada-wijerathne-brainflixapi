@@ -9,12 +9,15 @@ const PORT = process.env.PORT || 5000
 const {CORS_ORIGIN} = process.env;
 
 //middleware
-app.use(express.json());
-app.use(cors({origin: CORS_ORIGIN})); 
+app.use(express.json()); 
+app.use(cors());
 app.use(express.static('public/images')); 
 
 //routes
 app.use("/videos", videosRoute);
+app.get("/", (req, res) => {
+  res.send("Welcome to my API");
+});
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);

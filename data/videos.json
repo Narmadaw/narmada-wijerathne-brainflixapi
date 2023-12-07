@@ -59,20 +59,6 @@
         "comment": "Who ever knew travel could be so easy? Looking forward to getting to put this into practice when I fly away in the near future. Wish me good luck!",
         "likes": 0,
         "timestamp": 1625177192000
-      },
-      {
-        "id": "61a2d1c0-1266-43c0-a5c6-f3f84b0c5fc9",
-        "name": "Narmada Wijerathne",
-        "comment": "dfgf",
-        "likes": 1,
-        "timestamp": 1699236501414
-      },
-      {
-        "id": "8f1cb7b6-ec2a-445d-87b6-64d68ccba612",
-        "name": "Narmada Wijerathne",
-        "comment": "dxfvfgfg",
-        "likes": 0,
-        "timestamp": 1699236503067
       }
     ]
   },
@@ -127,21 +113,21 @@
         "id": "a2b4ccd4-af48-46e9-9e62-b96731dad728",
         "name": "Aurora Anita",
         "comment": "This video is SO important for anybody wishing to travel overseas. We’ll be using these tips on our trips!",
-        "likes": 6,
+        "likes": 7,
         "timestamp": 1620983771000
       },
       {
         "id": "6ed06295-635f-4fe7-b2b2-83b422c65a1f",
         "name": "Fatima Hassan",
         "comment": "The last thing you want is to be stranded somewhere without this type of knowledge! Thank you so much for sharing your experience, this will surely come in handy.",
-        "likes": 2,
+        "likes": 3,
         "timestamp": 1620937932000
       },
       {
         "id": "43edd26e-1a76-45da-98f8-684e660a8d5b",
         "name": "Joan Hidaka",
         "comment": "Great information all around! I’m saving this video to watch again the next time I head out of the country. Stay safe out there, folks.",
-        "likes": 2,
+        "likes": 3,
         "timestamp": 1620930181000
       }
     ]
@@ -332,6 +318,19 @@
     "duration": "4:20",
     "video": "https://project-2-api.herokuapp.com/stream",
     "timestamp": 1699238451302,
+    "comments": []
+  },
+  {
+    "id": "741b4f18-7c40-49f6-be4e-c027c62ca616",
+    "title": "hggghghm",
+    "channel": "The Music Channel",
+    "image": "Photo-gallery-8.jpg",
+    "description": "ghnhngh",
+    "views": 0,
+    "likes": 0,
+    "duration": "4:20",
+    "video": "Sample-Video.mp4",
+    "timestamp": 1699252144817,
     "comments": []
   }
 ]
